@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'arial';
+
+}
+
+.wrapper{
+  width: 800px;
+  margin: 10px auto;
+  padding:10px;
+  text-align:center;
+}
+
+.wrapper h2{
+  margin:10px 0;
+}
+
+.btn{
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #999;
+  box-shadow: 1px 3px 1px #999;
+  margin:10px 5px;
+}
+
+.border{
+  border:2px solid red;
+}
+
+.invert{
+  filter: invert(100%);
+}
+
+.brightness{
+  filter: brightness(200%);
+}
+
+.blur{
+  filter: blur(5px);
+}
+
+.opacity{
+  filter: opacity(30%);
+}
+
+.greyscale{
+  filter: grayscale(100%);
+}
